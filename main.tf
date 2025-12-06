@@ -1,6 +1,6 @@
 data "tfe_outputs" "source_workspace" {
-  workspace    = var.workspace_name
-  organization = var.organization_name
+  workspace    = var.learn-hcp-terraform-run-triggers
+  organization = var.ABCorp
 }
 
 resource "aws_instance" "app_server" {
